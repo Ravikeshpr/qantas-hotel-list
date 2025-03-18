@@ -1,12 +1,14 @@
 ## Notes
 
-1. Even if it was a small code base, I have made folder structure keeping extensibility to a large code base in mind. Segregation of components and reusable hooks has been done keeping the same thing in mind.
+1. Even though it is a small codebase, I designed the folder structure with scalability in mind to accommodate larger projects. Reusable Components and reusable hooks are segregated with the same consideration.
 
-2. Unit testing is done for most of the components and have tried to cover as many cases as possible, it is missing cleaning of mock data to separate files and some complex test cases. Where only structural components snapshot testing is used.
+2. Unit tests have been implemented for most components, and I’ve aimed to cover as many scenarios as possible. However, it lacks the organization of mock data into separate files and some complex test cases. For purely structural components, snapshot testing has been utilized.
 
-3. Comments has not been added, which I like to do in the code for future reference and readability in large code bases, to save the time. There are some typos in the commit statements and might be in var names.
-4. Use of Redux and redux patter is avoided to save time and complete the project in time.
-5. We prioritized accessibility by using semantic elements for headers, main content, and other native elements, reducing the use of generic divs. Did not have tools to check with screen readers but have checked the score in the lighthouse which gives good results, complain about the contrast of the test against the background which has taken liberty here for this small app.
+3. Comments have not yet been added, though I usually include them to enhance readability and provide future reference in larger codebases. There are also some typos in the commit messages and possibly in variable names.
+
+4. I avoided using Redux and the Redux pattern to save time and ensure the project was completed on schedule.
+
+5. I prioritized accessibility by using semantic elements for headers, main content, and other native components, minimizing the use of generic divs. Although I couldn’t test with screen readers due to a lack of tools, I checked the Lighthouse score, which was positive. It did flag some contrast issues between text and background, where I took a few liberties for this small application.
 
     ![alt text](image.png)
 
