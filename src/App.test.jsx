@@ -7,6 +7,6 @@ import "@testing-library/jest-dom/vitest";
 describe("App", () => {
     it("renders without crashing", () => {
         render(<App />);
-        expect(screen.getByText("App component")).toBeInTheDocument();
+        expect(screen.getAllByText("Loading...").length).toBe(2);
     });
 });

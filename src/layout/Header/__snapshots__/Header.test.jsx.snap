@@ -9,7 +9,6 @@ exports[`Header > Header component should maintain the structure 1`] = `
     <img
       alt="Qantas logo"
       class="sc-gnOvAp kcDHvS"
-      role="logo"
       src="/src/assets/qantas-logo.png"
       tabindex="0"
     />

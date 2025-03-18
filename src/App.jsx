@@ -1,16 +1,13 @@
 import React from "react";
-import styled from "styled-components";
-import { DefaultLayout } from "./layout";
-
-const StyledH1 = styled.h1`
-    color: green;
-`;
-
+import { HotelList } from "./pages";
+import { HotelListContext } from "./context/HotelList";
+import { useHotelListContext } from "./hooks/useHotelListContext";
 function App() {
     return (
         <div>
-            <StyledH1>App component</StyledH1>
-            <DefaultLayout />
+            <HotelListContext.Provider value={useHotelListContext()}>
+                <HotelList />
+            </HotelListContext.Provider>
         </div>
     );
 }

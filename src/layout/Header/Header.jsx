@@ -5,7 +5,7 @@ import { HeaderContainer, Logo } from "./Header.style";
 const Header = () => {
     return (
         <HeaderContainer role="banner">
-            <Logo role="logo" src={qantasLogo} alt="Qantas logo" />
+            <Logo tabIndex={0} src={qantasLogo} alt="Qantas logo" />
         </HeaderContainer>
     );
 };
