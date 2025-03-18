@@ -1,12 +1,29 @@
-# React + Vite
+## Notes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Even if it was a small code base, I have made folder structure keeping extensibility to a large code base in mind. Segregation of components and reusable hooks has been done keeping the same thing in mind.
 
-Currently, two official plugins are available:
+2. Unit testing is done for most of the components and have tried to cover as many cases as possible, it is missing cleaning of mock data to separate files and some complex test cases. Where only structural components snapshot testing is used.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. Comments has not been added, which I like to do in the code for future reference and readability in large code bases, to save the time. There are some typos in the commit statements and might be in var names.
+4. Use of Redux and redux patter is avoided to save time and complete the project in time.
+5. We prioritized accessibility by using semantic elements for headers, main content, and other native elements, reducing the use of generic divs. Did not have tools to check with screen readers but have checked the score in the lighthouse which gives good results, complain about the contrast of the test against the background which has taken liberty here for this small app.
 
-## Expanding the ESLint configuration
+    ![alt text](image.png)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Execute following commands in sequence to run the application
+
+-   npm install
+-   npm run json-server (port 8080 and endpoint http://localhost:8080/hotels)
+-   npm run dev (app will run on http://localhost:5173)
+
+## Following command to run test cases
+
+-   npm run test
+
+## Additional libraries and their uses
+
+-   Vite library is used to create the project's initial setup
+-   json-server : To run light weight server for named end points in the data/data.json (I have changed an object name in the given data file for a better end point name)
+-   styled-components: For easier styling based on flex box and closer to JSX syntax
+-   fontAwesom: used for icons used in ratings
+-   vitest, react testing library, and other related libraries: to enable unit testing
