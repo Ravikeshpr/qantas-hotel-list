@@ -1,0 +1,18 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header > Header component should maintain the structure 1`] = `
+<div>
+  <header
+    class="sc-VHjGu jFIdmD"
+    role="banner"
+  >
+    <img
+      alt="Qantas logo"
+      class="sc-gnOvAp kcDHvS"
+      role="logo"
+      src="/src/assets/qantas-logo.png"
+      tabindex="0"
+    />
+  </header>
+</div>
+`;
