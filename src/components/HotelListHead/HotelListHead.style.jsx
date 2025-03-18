@@ -9,3 +9,7 @@ export const HotelListHeadContainer = styled(SectionContainer)`
         border-radius: 5px;
     }
 `;
+
+export const StyledP = styled.p`
+    font-size: 18px;
+`;

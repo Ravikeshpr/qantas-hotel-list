@@ -1,0 +1,132 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HotelInfo > HotelInfo always renders same UI with correct props 1`] = `
+<div>
+  <div
+    class="sc-gnOvAp cyQKIa"
+  >
+    <div
+      class="sc-dQkurY knUWMK"
+    >
+      <div
+        class="sc-glJfXD iPSiVB"
+      >
+        <p
+          class="sc-dOfePm farNyc"
+        >
+          Courtyard by Marriott Sydney-North Ryde
+        </p>
+        <address
+          class="sc-jgmqJh eBKsyD"
+        >
+          7-11 Talavera Rd, North Ryde
+        </address>
+      </div>
+      <div
+        class="sc-ihGilW gnCquM"
+      >
+        <span>
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-circle "
+            data-icon="circle"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style="color: yellow;"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span>
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-circle "
+            data-icon="circle"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style="color: yellow;"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span>
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-circle "
+            data-icon="circle"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style="color: yellow;"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span>
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-circle "
+            data-icon="circle"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style="color: yellow;"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span>
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-circle-half-stroke "
+            data-icon="circle-half-stroke"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style="color: yellow;"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M448 256c0-106-86-192-192-192l0 384c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+    <p
+      class="sc-gIIpAQ gguqoy"
+    >
+      Deluxe Balcony Room
+    </p>
+    <p
+      class="sc-kFkjun kFxDJK"
+    >
+      Not Refundable
+    </p>
+  </div>
+</div>
+`;

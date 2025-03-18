@@ -1,14 +1,11 @@
 import React, { useContext } from "react";
+import { SectionContainer } from "../../utils/styleUtils";
 import { HotelListContext } from "../../context/HotelList";
-import { HotelListHeadContainer } from "./HotelListHead.style";
-
-const OPTIONS = [
-    { id: "desc", value: "Price high-low" },
-    { id: "asc", value: "Price low-high" },
-];
+import { SORT_ORDERS, OPTIONS } from "../../constants/HotelListContants";
+import { HotelListHeadContainer, StyledP } from "./HotelListHead.style";
 
 function HotelListHead() {
-    const { order, setOrder, setData, data, isLoading } =
+    const { order, changeOrder, data, isLoading } =
         useContext(HotelListContext);
 
     if (isLoading) {
@@ -21,14 +18,15 @@ function HotelListHead() {
         <>
             {data && data.length && (
                 <HotelListHeadContainer>
-                    <p>
+                    <StyledP>
                         <strong data-testid="numberOfHotels">{`${data?.length}`}</strong>{" "}
                         <i>hotels in </i>
                         <strong>Sydney</strong>.
-                    </p>
+                    </StyledP>
                     <span>
                         <label htmlFor="order">{`Sort by `}</label>
                         <select
+                            onChange={(e) => changeOrder(e.target.value)}
                             value={order}
                             id="order"
                             data-testid="orderDropdown"

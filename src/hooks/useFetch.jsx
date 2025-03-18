@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { sortArrayOfObjects } from "../utils/sortUtils";
+import { SORT_ORDERS } from "../constants/HotelListContants";
 
 const useFetch = (url) => {
     const [data, setData] = useState(null);
@@ -10,7 +12,13 @@ const useFetch = (url) => {
             .then((response) => response.json())
             .then((data) => {
                 setIsLoading(false);
-                setData(data);
+                setData(
+                    sortArrayOfObjects(
+                        data,
+                        SORT_ORDERS.DESCENDING,
+                        "offer.displayPrice.amount"
+                    )
+                );
             })
             .catch((err) => {
                 setIsLoading(false);

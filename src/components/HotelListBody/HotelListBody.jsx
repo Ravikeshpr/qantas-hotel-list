@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { SectionContainer } from "../../utils/styleUtils";
 import { HotelListContext } from "../../context/HotelList";
+import HotelDetailRow from "../HotelDetailsRow/HotelDetailsRow";
 
 function HotelListBody() {
     const { data, isLoading, error } = useContext(HotelListContext);
@@ -11,7 +12,7 @@ function HotelListBody() {
     return (
         <SectionContainer>
             {data.map((hotel) => {
-                return JSON.stringify(hotel);
+                return <HotelDetailRow key={hotel.id} hotel={hotel} />;
             })}
         </SectionContainer>
     );

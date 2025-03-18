@@ -1,0 +1,188 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HotelDetailRow > Renders same HotelDetailRow content with the same given input 1`] = `
+<div>
+  <div
+    class="sc-VHjGu ceIXpJ"
+  >
+    <div
+      class="sc-dQkurY kPrtHW"
+    >
+      <img
+        alt="Hotel preview img"
+        class="sc-glJfXD gCJnwi"
+        src="https://unsplash.it/145/125/?random"
+      />
+      <p
+        class="sc-dOfePm cmimIV"
+      >
+        Exclusive Deal
+      </p>
+    </div>
+    <div
+      class="sc-gnOvAp drfErD"
+    >
+      <div
+        class="sc-gIIpAQ jRCdcw"
+      >
+        <div
+          class="sc-kFkjun jiFkyR"
+        >
+          <div
+            class="sc-ihGilW cNsiWO"
+          >
+            <p
+              class="sc-jRLeyu hFgpHw"
+            >
+              Courtyard by Marriott Sydney-North Ryde
+            </p>
+            <address
+              class="sc-cRHGzb bVagJm"
+            >
+              7-11 Talavera Rd, North Ryde
+            </address>
+          </div>
+          <div
+            class="sc-jXuTBK kbXsJC"
+          >
+            <span>
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-circle "
+                data-icon="circle"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="color: yellow;"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <span>
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-circle "
+                data-icon="circle"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="color: yellow;"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <span>
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-circle "
+                data-icon="circle"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="color: yellow;"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <span>
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-circle "
+                data-icon="circle"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="color: yellow;"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <span>
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-circle-half-stroke "
+                data-icon="circle-half-stroke"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="color: yellow;"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M448 256c0-106-86-192-192-192l0 384c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+        <p
+          class="sc-jOTjWM cpEdUU"
+        >
+          Deluxe Balcony Room
+        </p>
+        <p
+          class="sc-cOPLXt fepPHx"
+        >
+          Not Refundable
+        </p>
+      </div>
+      <div
+        class="sc-cXrvCr iYJvqx"
+      >
+        <p
+          class="sc-jUCZac fdRhTW"
+        >
+          1 night total(AUD)
+        </p>
+        <p
+          class="sc-lnQFQe dbBVYg"
+        >
+          <span
+            class="sc-cUzBaJ bKwMIi"
+          >
+            $
+          </span>
+          329
+        </p>
+        <p
+          class="sc-eUzcTs efdyST"
+        >
+          <span
+            class="sc-enNhQL dWbISN"
+          >
+            Save $
+            30
+            <span
+              class="sc-dUwGTt bRpydO"
+            >
+              ~
+            </span>
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
